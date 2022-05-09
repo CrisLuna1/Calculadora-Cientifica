@@ -22,7 +22,7 @@ function varargout = calculadora(varargin)
 
 % Edit the above text to modify the response to help calculadora
 
-% Last Modified by GUIDE v2.5 09-May-2022 12:23:11
+% Last Modified by GUIDE v2.5 09-May-2022 13:59:21
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -96,242 +96,242 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on button press in pushbutton1.
-function pushbutton1_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton1 (see GCBO)
+% --- Executes on button press in graf.
+function graf_Callback(hObject, eventdata, handles)
+% hObject    handle to graf (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton2.
-function pushbutton2_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton2 (see GCBO)
+% --- Executes on button press in punto.
+function punto_Callback(hObject, eventdata, handles)
+% hObject    handle to punto (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton3.
-function pushbutton3_Callback(hObject, eventdata, handles)
+% --- Executes on button press in cero.
+function cero_Callback(hObject, eventdata, handles)
 s=get(handles.pantalla,'string');
 s=strcat(s,'0');
 set(handles.pantalla,'string',s);
-% hObject    handle to pushbutton3 (see GCBO)
+% hObject    handle to cero (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton4.
-function pushbutton4_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton4 (see GCBO)
+% --- Executes on button press in tres.
+function tres_Callback(hObject, eventdata, handles)
+% hObject    handle to tres (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton5.
-function pushbutton5_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton5 (see GCBO)
+% --- Executes on button press in clear.
+function clear_Callback(hObject, eventdata, handles)
+% hObject    handle to clear (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton6.
-function pushbutton6_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton6 (see GCBO)
+% --- Executes on button press in igual.
+function igual_Callback(hObject, eventdata, handles)
+% hObject    handle to igual (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton7.
-function pushbutton7_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton7 (see GCBO)
+% --- Executes on button press in coma.
+function coma_Callback(hObject, eventdata, handles)
+% hObject    handle to coma (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton8.
-function pushbutton8_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton8 (see GCBO)
+% --- Executes on button press in dos.
+function dos_Callback(hObject, eventdata, handles)
+% hObject    handle to dos (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton9.
-function pushbutton9_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton9 (see GCBO)
+% --- Executes on button press in uno.
+function uno_Callback(hObject, eventdata, handles)
+% hObject    handle to uno (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton10.
-function pushbutton10_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton10 (see GCBO)
+% --- Executes on button press in seis.
+function seis_Callback(hObject, eventdata, handles)
+% hObject    handle to seis (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton11.
-function pushbutton11_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton11 (see GCBO)
+% --- Executes on button press in cinco.
+function cinco_Callback(hObject, eventdata, handles)
+% hObject    handle to cinco (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton12.
-function pushbutton12_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton12 (see GCBO)
+% --- Executes on button press in cuatro.
+function cuatro_Callback(hObject, eventdata, handles)
+% hObject    handle to cuatro (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton13.
-function pushbutton13_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton13 (see GCBO)
+% --- Executes on button press in nueve.
+function nueve_Callback(hObject, eventdata, handles)
+% hObject    handle to nueve (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton14.
-function pushbutton14_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton14 (see GCBO)
+% --- Executes on button press in ocho.
+function ocho_Callback(hObject, eventdata, handles)
+% hObject    handle to ocho (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton15.
-function pushbutton15_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton15 (see GCBO)
+% --- Executes on button press in siete.
+function siete_Callback(hObject, eventdata, handles)
+% hObject    handle to siete (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton16.
-function pushbutton16_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton16 (see GCBO)
+% --- Executes on button press in mas.
+function mas_Callback(hObject, eventdata, handles)
+% hObject    handle to mas (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton17.
-function pushbutton17_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton17 (see GCBO)
+% --- Executes on button press in por.
+function por_Callback(hObject, eventdata, handles)
+% hObject    handle to por (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton18.
-function pushbutton18_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton18 (see GCBO)
+% --- Executes on button press in menos.
+function menos_Callback(hObject, eventdata, handles)
+% hObject    handle to menos (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton19.
-function pushbutton19_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton19 (see GCBO)
+% --- Executes on button press in div.
+function div_Callback(hObject, eventdata, handles)
+% hObject    handle to div (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton20.
-function pushbutton20_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton20 (see GCBO)
+% --- Executes on button press in equis.
+function equis_Callback(hObject, eventdata, handles)
+% hObject    handle to equis (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton21.
-function pushbutton21_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton21 (see GCBO)
+% --- Executes on button press in raiz2.
+function raiz2_Callback(hObject, eventdata, handles)
+% hObject    handle to raiz2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton22.
-function pushbutton22_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton22 (see GCBO)
+% --- Executes on button press in raiz3.
+function raiz3_Callback(hObject, eventdata, handles)
+% hObject    handle to raiz3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton23.
-function pushbutton23_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton23 (see GCBO)
+% --- Executes on button press in elev3.
+function elev3_Callback(hObject, eventdata, handles)
+% hObject    handle to elev3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton24.
-function pushbutton24_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton24 (see GCBO)
+% --- Executes on button press in in.
+function in_Callback(hObject, eventdata, handles)
+% hObject    handle to in (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton25.
-function pushbutton25_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton25 (see GCBO)
+% --- Executes on button press in log.
+function log_Callback(hObject, eventdata, handles)
+% hObject    handle to log (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton26.
-function pushbutton26_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton26 (see GCBO)
+% --- Executes on button press in raiz.
+function raiz_Callback(hObject, eventdata, handles)
+% hObject    handle to raiz (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton27.
-function pushbutton27_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton27 (see GCBO)
+% --- Executes on button press in elev2.
+function elev2_Callback(hObject, eventdata, handles)
+% hObject    handle to elev2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton28.
-function pushbutton28_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton28 (see GCBO)
+% --- Executes on button press in seno.
+function seno_Callback(hObject, eventdata, handles)
+% hObject    handle to seno (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton29.
-function pushbutton29_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton29 (see GCBO)
+% --- Executes on button press in coseno.
+function coseno_Callback(hObject, eventdata, handles)
+% hObject    handle to coseno (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton30.
-function pushbutton30_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton30 (see GCBO)
+% --- Executes on button press in tangente.
+function tangente_Callback(hObject, eventdata, handles)
+% hObject    handle to tangente (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton31.
-function pushbutton31_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton31 (see GCBO)
+% --- Executes on button press in elevado.
+function elevado_Callback(hObject, eventdata, handles)
+% hObject    handle to elevado (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton32.
-function pushbutton32_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton32 (see GCBO)
+% --- Executes on button press in parentesisIzq.
+function parentesisIzq_Callback(hObject, eventdata, handles)
+% hObject    handle to parentesisIzq (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton33.
-function pushbutton33_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton33 (see GCBO)
+% --- Executes on button press in parentesisDer.
+function parentesisDer_Callback(hObject, eventdata, handles)
+% hObject    handle to parentesisDer (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in pushbutton34.
-function pushbutton34_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton34 (see GCBO)
+% --- Executes on button press in pi.
+function pi_Callback(hObject, eventdata, handles)
+% hObject    handle to pi (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
