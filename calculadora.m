@@ -260,6 +260,9 @@ set(handles.pantalla,'string',s);
 
 % --- Executes on button press in por.
 function por_Callback(hObject, eventdata, handles)
+s=get(handles.pantalla,'string');
+s=strcat(s,'*');
+set(handles.pantalla,'string',s);
 % hObject    handle to por (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -277,6 +280,9 @@ set(handles.pantalla,'string',s);
 
 % --- Executes on button press in div.
 function div_Callback(hObject, eventdata, handles)
+s=get(handles.pantalla,'string');
+s=strcat(s,'/');
+set(handles.pantalla,'string',s);
 % hObject    handle to div (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
